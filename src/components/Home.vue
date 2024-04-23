@@ -1,4 +1,5 @@
 <template>
+<Header />
 <h1 class="tCenter">Student Details</h1>
 <div class="Grid4">
     <div v-for="item in students" :key="item.id">
@@ -8,12 +9,14 @@
 </template>
 
 <script>
+import Header from './Header';
 import Student from './Student';
 
 export default {
     name: "Home",
     components: {
-        Student
+        Student,
+        Header
     },
     methods: {
         getContact(id) {
@@ -64,5 +67,5 @@ export default {
 </script>
 
 <style>
-@import '../css/utils.css';
+@import '../assets/css/utils.css';
 </style>

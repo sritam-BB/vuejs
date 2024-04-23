@@ -49,3 +49,18 @@ li {
     margin-top: 1rem;
 }
 .primaryBtn{background: #41b883; color: #fff;}
+.flexCenter, .header{
+    display: flex;
+    align-items: center;
+}
+.w80, .header{width: 80%;}.w100{width: 100%;}
+.mAuto, .header{margin: auto;}
+.h100vh{height: 100vh;}
+img{
+    width: 100%;
+    height: 100%;
+}
+.mr-2{margin-right: 2rem;}.mt-10{margin-top: 10px;}.mt-05{margin-top: 5px;}
+.header{
+    height: calc(100vh - 100px);
+}

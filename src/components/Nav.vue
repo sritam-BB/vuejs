@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-@import '../css/utils.css';
+@import '../assets/css/utils.css';
 .navBar {
     display: flex;
     align-items: center;
